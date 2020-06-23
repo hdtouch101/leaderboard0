@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    font-size: 16px;
+}
+
+
+/* styling top winners */
+.unique-container {
+    max-width: 100%;
+    max-height: 411px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.unique-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 55px;
+    position: relative;
+}
+
+.bar {
+    padding: .5rem;
+    position: relative;
+    bottom: 12px;
+}
+
+.logo {
+    padding: .5rem;
+}
+
+
+
+.unique-txt h3 {
+    color: #1154A2;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+.top-intern-container {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    top: 60px;
+    justify-content: center;
+}
+
+.intern-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.intern-box-gold {
+    position: relative;
+    bottom: 35px;
+}
+
+.intern-box-silver {
+    position: relative;
+    top: 35px;
+}
+
+.intern-box-bronze {
+    position: relative;
+    top: 50px;
+}
+
+.intern-dp-silver {
+    border: 3px solid #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-image: url('https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 98px;
+    height: 95px;
+}
+
+.intern-dp-gold {
+    border: 3px solid #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-image: url('https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.intern-dp-bronze {
+    border: 3px solid #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 85px;
+    height: 80px;
+}
+.top-point h5 {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #7E7E7E;
+    font-size: .80rem;
+    margin-top: 0;
+}
+
+.medal {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* search styling */
+.search-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.search {
+    max-width: 1126px;
+    height: 40px;
+    border: 0;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(236, 234, 234, 0.25);
+    border-radius: 7px;
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #C7C7C7;
+    padding-left: 30px;
+}
+
+.ranking {
+    position: relative;
+    max-width: 1122px;
+    max-height: 88px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px auto;
+}
+
+.intern-container {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.space {
+    padding: 2rem;
+}
+
+.intern-details {
+    display: flex;
+    flex-direction: column;
+}
+.intern-dp {
+    position: relative;
+    max-width: 55px;
+    max-height: 55px;
+    border-radius: 50%;
+    background-image: url('https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+} 
+
+.intern-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: normal;
+    color: #1154A2;
+}
+
+.slack-details {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .85rem;
+    color: #808B97;
+}
+
